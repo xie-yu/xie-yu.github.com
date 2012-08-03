@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+	<head>
+		<title>Xie-Yu的博客 | 3D跑马灯jQuery插件 </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../../css/global.css" />
+		<style type="text/css">
+			#teams {
+				width: 600px;
+				height: 500px;
+			}
+		</style>
+		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../../js/marquee3d/marquee3d.js"></script>
+		<script type="text/javascript" src="http://js.tongji.linezing.com/2940294/tongji.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<div id="logo">Xie-Yu的博客</div>
+				<div id="index">
+					<span><a href="../../index.html">首页</a></span>
+					<span><a href="../index.html"  class="index-sel">博客</a></span>
+					<span><a href="../../about.html">关于</a></span>
+				</div>
+				<div id="self-intro">
+					<div id="avatar">
+						<img src="../../img/me.jpg"></img>
+					</div>
+					<div id="intro-text">
+						我是谢彧，在这里写博客<br />
+						记录下学习的收获<br />
+						实践有趣的想法<br />
+						我的邮箱是：xieofyu at gmail.com
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="content">
+				<div class="blog-view">
+					<div class="blog-title-wrap">
+						<div class="blog-title">
+							<h1>3D跑马灯jQuery插件</h1>
+						</div>
+						<div class="blog-title-info">
+							<span class="date">2012-5-31</span>
+						</div>
+					</div>
+					<div class="blog-content-view">
+						<p>
+							这一个月都奉献给了毕业设计，再过5天就是毕业设计论文答辩了。<!--
+							-->几天前论文完成之后倒也无所事事，昨晚高中同学有毕业晚会，便抽空出了趟学校去看表演。<!--
+							-->表演很精彩，至少满屋子都是新面孔。不过因为其他的一些原因，回学校后情绪有些波动，我觉得要写点什么，<!--
+							-->平复心情，打发掉大学最后的茫然时光。
+						</p>
+						<p>
+							我写了个3D跑马灯效果的jQuery插件，计划做得好的话，用在首页上，所以内容限定为图片。效果就是这样了：
+						</p>
+						<p>
+							<div id="teams">
+								<img src="img/arsenal.png" />
+								<img src="img/blackburn.png" />
+								<img src="img/bolton.png" />
+								<img src="img/chelsea.png" />
+								<img src="img/everton.png" />
+								<img src="img/fulham.png" />
+								<img src="img/liverpool.png" />
+							</div>
+						</p>
+						<p>
+							布局时需要用到本就没学好，又很遥远的图形学知识。好在只是一个简单的坐标变换，<!--
+							-->画了几张大大的坐标，倒也弄出来了，但毕竟不太理想，此外，整个部件的居中对齐也有问题。
+						</p>
+						<p>
+							说回来，这是我第一次做动画效果，mark一下，再接再厉。插件的代码<code>marquee3d.js</code>可在<!--
+							--><a href="https://github.com/xie-yu/xie-yu.github.com" target="_blank">github/xie-yu</a><!--
+							-->处下载。
+						</p>
+						<p>
+							<div id="seecomments"><a href="#disqus_thread" onclick="seeComments(this)">点击添加评论 →</a></div>
+							<div id="disqus_thread"></div>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="footer-note">
+				Xie-Yu博客· github/xie-yu · 谢彧
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#teams").marquee3d();
+		});
+	</script>
+</html>
