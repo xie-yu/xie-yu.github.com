@@ -1,4 +1,4 @@
-/* author: beiyuu.com */
+Ôªø/* author: beiyuu.com */
 function includeScript(file,callback){
 	var _doc = document.getElementsByTagName('head')[0];
 	var js = document.createElement('script');
@@ -7,12 +7,12 @@ function includeScript(file,callback){
 	_doc.appendChild(js);
 
 	if (!/*@cc_on!@*/0) { //if not IE
-         //Firefox2°¢Firefox3°¢Safari3.1+°¢Opera9.6+ support js.onload
+         //Firefox2„ÄÅFirefox3„ÄÅSafari3.1+„ÄÅOpera9.6+ support js.onload
          js.onload = function () {
               callback();
          }
 	} else {
-         //IE6°¢IE7 support js.onreadystatechange
+         //IE6„ÄÅIE7 support js.onreadystatechange
          js.onreadystatechange = function () {
 			 if (js.readyState == 'loaded' || js.readyState == 'complete') {
 				  callback();
@@ -27,7 +27,7 @@ function includeScript(file,callback){
  * show disqus comments
  */
 function seeComments(thisAnchor) {
-	$(thisAnchor).html('º”‘ÿ÷–...');
+	$(thisAnchor).html('Âä†ËΩΩ‰∏≠...');
 	var disqus_shortname = 'marcieinredgithubpage';
 	var that = $(thisAnchor).parent(); // In my app.
 	includeScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()}); 
