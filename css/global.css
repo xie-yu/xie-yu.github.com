@@ -29,7 +29,8 @@ div.blogmore:hover {	background: /*#177CB0*/#555555; width: 130px; }
 div.blogmore a { text-align: center; text-decoration: none; font-size: 18px; font-family: 黑体; color: rgb(68, 68, 68); line-height: 1.7em; }
 div.blogmore a:hover { color: #ffffff; }
 p { line-height: 25px; margin-top: 15px; font-size: 16px; letter-spacing: 1px; margin-bottom: 25px; font-weight: 1px; font-family: "宋体", Georgia, Times, 'Times New Roman', serif; }
-a { color: #177caa; padding-bottom: 2px; text-decoration: none; border-bottom: 1px dotted #177CFF; }
+a { color: #177caa; }
+p a { color: #177caa; padding-bottom: 2px; text-decoration: none; border-bottom: 1px dotted #177CFF; }
 code { padding: 1px; border: 1px solid #cccccc; background: #eeeeee; font-family: "Courier, monospace"; line-height: 21px; font-size: 13px; }
 #footer { background: #a4bbbb; height: 50px; margin: 100px auto auto auto; }
 #footer-note { width: 80%; /* the same with main */ margin: auto auto auto auto; color: #113311; font-size: 12px; padding: 20px 0 0 0}
