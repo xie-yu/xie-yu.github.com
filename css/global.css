@@ -3,6 +3,7 @@
 #main {	width: 80%; margin: 0 auto 0 auto; min-height: 550px; }
 #header { height: 200px; margin: 0 auto auto 0px; }
 #logo { float: left; width: 200px; margin: 50px auto auto 0px; padding: 10px 0px 10px 10px; font-size: 30px; background: #cccccc; color: #113311; font-family: Times, "黑体"}
+#logo img { width: 30px; height: 30px; position: relative; top: 5px;}
 #index { margin: 60px 0 0 0; width: 70%; float: left; border-bottom: 2px solid #000000; }
 #index span { margin: 0px 0px 0 40px; }
 #index span a { font-size: 25px; color: #999999; text-decoration: none; }
