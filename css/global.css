@@ -9,8 +9,9 @@
 #index span a { font-size: 25px; color: #999999; text-decoration: none; }
 #index span a:hover { background: #555555; color: #ffffff; }
 #index span a.index-sel { color: #000000; background: #888888; }
-#self-intro { position: relative; z-index: -1; float: right; margin-right: 50px; }
+#self-intro { position: relative; z-index: 1; float: right; margin-right: 50px; }
 #intro-text { margin-top: 5px; color: #999999; font-size: 14px; line-height: 20px; border-bottom: 1px dotted #666666; }
+#intro-text a { text-decoration: none; }
 #content { width: 68%; margin: 0px auto 50px 0; border-right: 1px dotted /*#ffc773*/#666666; padding: 0 20px 0 0;}
 .blog-view { border-bottom: 2px solid /*#ffc773*/#666666; margin-bottom: 25px;}
 .blog-title-wrap { margin-top: 10px; padding-bottom: 10px; border-bottom: 1px solid /*#ffc773*/#666666; }
