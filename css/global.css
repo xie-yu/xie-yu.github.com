@@ -1,4 +1,4 @@
-﻿body { margin: 0; padding: 0; background: /*#f2ecde*/ #ffffff; }
+﻿body { margin: 0; padding: 0; background: /*#f2ecde*/ /*#ffffff;*/ url(../img/bg.jpg); }
 .clear { clear: both; }
 #main {	width: 80%; margin: 0 auto 0 auto; min-height: 550px; }
 #header { height: 200px; margin: 0 auto auto 0px; }
