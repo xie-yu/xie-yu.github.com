@@ -1,4 +1,4 @@
-/*
+﻿/*
  * author: MarcieInRed.github.com
  * Use simple-highlight.css for basic layout.
  */
@@ -17,7 +17,8 @@
 	var inblockcmt = false;
 	
 	$.fn.simpleHighlight = function() {
-		var code = this.text();
+		this.css("white-space", "line-pre");
+		var code = this.html();
 		
 		// if the first lines has only new-line
 		for(var i = 0; i < code.length; i++) {
@@ -66,7 +67,12 @@
 		code = "<div class='code'>" + code + "</div><div class='clear'></div>";
 		var nline = "<div class='line'>" + nline + "</div>";
 		code = "<pre class='simple-highlight'>" + nline + code + "</pre>";
-		this.empty()[0].innerHTML = code;
+		if(!$.browser.msie)
+			this.empty()[0].innerHTML = code;
+		else {
+			this.css("color", "#ffffff");
+			this.prepend("<div style='color: red'>语法高亮目前不支持IE浏览器……</div>");
+		}
 		this.addClass("simple-highlight-box");
 	};
 	

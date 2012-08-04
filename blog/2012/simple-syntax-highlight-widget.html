@@ -62,36 +62,37 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 							-->然后这样：<code>$(thisDiv).simpleHighlight()</code>，语法高亮的代码就呈现出来了。
 						</p>
 						<p>
-							<div id="sample_code">
-							/* This is hello world */
-							#include &lt;stdio.h&gt;
+							<pre><div id="sample_code">
+ /* This is hello world */
+ #include &lt;stdio.h&gt;
 							
-							int
-							main(void) {
-								/*
-								 * hello world may be easy,
-								 * but can you say hello world twenty times?
-								 */
-								int i;
-								float f = 0.8; // just try to highlight a float number.
-								for(i = 0; i < 9; i++) {
-									printf("hello world\n");
-								}
-								if(i == 10) {
-									while(i < 20) {
-										printf("hello world\n");
-										i++;
-									}
-								} else printf("you can never print me\n");
+ int
+ main(void) {
+	 /*
+	  * hello world may be easy,
+	  * but can you say hello world twenty times?
+	  */
+	 int i;
+	 float f = 0.8; // just try to highlight a float number.
+	 for(i = 0; i &lt; 9; i++) {
+	 	 printf("hello world\n");
+	 }
+	 if(i == 10) {
+		 while(i &lt; 20) {
+			 printf("hello world\n");
+			 i++;
+		 }
+	 } else printf("you can never print me\n");
 								
-								return 0;
-							}
-							</div>
+	 return 0;
+ }
+							</div></pre>
 						</p>
 						<p>
 							我使用javascript时间不长，simple-highlight.js写得比较繁琐，特别是没有使用正则表达式，不知道如果用了的话，<!--
 							-->代码会清晰多少。这段代码可支持高亮C语言和大部分javascript的关键字，java的主要关键字，支持块注释和行注释，<!--
-							-->高亮数字，不支持字符串换行，不支持html的各类标记。特别遗憾的是，在IE里完全不行……
+							-->高亮数字，不支持字符串换行，不支持html的各类标记。因为IE不保留空格和换行符，jQuery对应的text方法也表现奇特，<!--
+							-->simple-highlight尚不支持IE，因此最好在代码外面添加<code>&lt;pre&gt;</code>。
 						</p>
 						<p>
 							如果你对simple-highlight.js感兴趣，可前往<!--
@@ -114,7 +115,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	</body>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$("#sample_code").simpleHighlight();
+				$("#sample_code").simpleHighlight();
 		});
 	</script>
 </html>

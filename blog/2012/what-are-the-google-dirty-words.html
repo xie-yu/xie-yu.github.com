@@ -70,24 +70,24 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 						<p>
 							接下来就好办了。不难想见要看到敏感词，只要循环解析出那个二维数组即可。为了观察方便，不妨将敏感词放进谷歌页面里展示出来。<!--
 							-->下面便是最后的成果：<br />
-							<div id="showBlacklist">
-							javascript:
-							var show=document.createElement("div"),
-								body=document.getElementsByTagName("body")[0],
-								main=document.getElementById("main");
-							body.replaceChild(show, main);
-							for(var b=_.K.HG(),c=b.dI(),b=b.getKey(),g=0,h;h=c[g++];){
-								var w="", len=h.length;
-								for(var i=0; i&lt;len; i++)
-									w+=window.String.fromCharCode(h[i]^b);
-								var bw=document.createElement("div");
-								bw.appendChild(document.createTextNode(w));
-								show.appendChild(bw)
-									.setAttribute("style",
-									"margin-left:10px;margin-right:10px;font-size:12px");
-							}
-							void 0;
-							</div>
+							<pre><div id="showBlacklist">
+ javascript:
+ var show=document.createElement("div"),
+	 body=document.getElementsByTagName("body")[0],
+	 main=document.getElementById("main");
+	 body.replaceChild(show, main);
+ for(var b=_.K.HG(),c=b.dI(),b=b.getKey(),g=0,h;h=c[g++];){
+	var w="", len=h.length;
+ for(var i=0; i&lt;len; i++)
+	w+=window.String.fromCharCode(h[i]^b);
+ var bw=document.createElement("div");
+ bw.appendChild(document.createTextNode(w));
+ show.appendChild(bw)
+	.setAttribute("style",
+		"margin-left:10px;margin-right:10px;font-size:12px");
+ }
+ void 0;
+							</div></pre>
 							复制该段代码，粘贴到谷歌搜索首页地址栏内，按回车，敏感词就会列出来。用IE8、IE9、Chrome、FireFox测试都还可以。<!--
 							-->较新的FireFox好像不支持在地址栏运行javascript，如果你遇到这种情况，请敲<code>Ctrl + Shift + K</code>，在控制台内运行<!--
 							-->这段代码。
