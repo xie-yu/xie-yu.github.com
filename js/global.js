@@ -33,3 +33,7 @@ function seeComments(thisAnchor) {
 	includeScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()}); 
 	return false;
 }
+
+function setFooter() {
+	document.getElementById("footer").style.top = document.height + "px";
+}
