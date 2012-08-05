@@ -4,21 +4,21 @@
 #header { height: 200px; margin: 0 auto auto 0px; }
 #logo { float: left; width: 200px; margin: 50px auto auto 0px; padding: 10px 0px 10px 10px; font-size: 30px; background: #cccccc; color: #113311; font-family: Times, "黑体"}
 #logo img { width: 30px; height: 30px; position: relative; top: 5px;}
-#index { margin: 60px 0 0 0; width: 70%; float: left; border-bottom: 2px solid #000000; }
+#index { margin: 60px 0 0 0; width: 70%; float: left; padding: 0 0 3px 0; /*border-bottom: 2px solid #000000;*/ background: url(../img/2px.gif) bottom left repeat-x;}
 #index span { margin: 0px 0px 0 40px; }
 #index span a { font-size: 25px; color: #999999; text-decoration: none; }
 #index span a:hover { background: #555555; color: #ffffff; }
 #index span a.index-sel { color: #000000; background: #888888; }
 #self-intro { position: relative; z-index: 1; float: right; margin-right: 50px; }
-#intro-text { margin-top: 5px; color: #999999; font-size: 14px; line-height: 20px; border-bottom: 1px dotted #666666; }
+#intro-text { margin-top: 5px; padding-bottom: 5px; color: #999999; font-size: 14px; line-height: 20px; background: url(../img/1px.gif) bottom left repeat-x; }
 #intro-text a { text-decoration: none; }
-#content { width: 68%; margin: 0px auto 50px 0; border-right: 1px dotted /*#ffc773*/#666666; padding: 0 20px 0 0;}
-.blog-view { border-bottom: 2px solid /*#ffc773*/#666666; margin-bottom: 25px;}
-.blog-title-wrap { margin-top: 10px; padding-bottom: 10px; border-bottom: 1px solid /*#ffc773*/#666666; }
+#content { width: 68%; margin: 0px auto 50px 0; background: url(../img/v-2px.gif) right repeat-y; /*border-right: 1px dotted #666666;*/ padding: 0 20px 0 0;}
+.blog-view { padding: 0 0 1px 0; background: url(../img/3px.gif) bottom left repeat-x; /*border-bottom: 2px solid #666666;*/ margin-bottom: 25px;}
+.blog-title-wrap { margin-top: 10px; padding-bottom: 10px; /*border-bottom: 1px solid #666666;*/ }
 .blog-title h1 { margin: 5px 0 5px 0; font-family: "宋体", Georgia, Times, 'Times New Roman', serif; font-size: 28px; color: #333333; letter-spacing: 1px; }
 .blog-title a { text-decoration: none; }
 .blog-title :hover { background: #cccccc; }
-.blog-title-info { padding-left: 2px;}
+.blog-title-info { width: 30%; padding: 0 0 5px 2px; background: url(../img/1px.gif) bottom left repeat-x; }
 .blog-title-wrap .date {	color: #2e4ece; font-weight: bold; letter-spacing: 1px; line-height: 1; font-family: Georgia, Times, 'Times New Roman', serif; }
 .blog-content-view { margin: 30px auto auto auto; }
 div.blogmore { background: /*#bce672*/#cccccc; width: 100px; height: 32px; padding: 0 0 0 10px;
