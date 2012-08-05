@@ -36,8 +36,8 @@ a { color: #177caa; }
 p a { color: #666666; padding-bottom: 2px; text-decoration: none; border-bottom: 1px dotted #444444; }
 p a:hover { color: #ffffff; background: #888888; }
 code { padding: 1px; border: 1px solid #cccccc; background: #eeeeee; font-family: "Courier, monospace"; line-height: 21px; font-size: 13px; }
-#footer { background: #a4bbbb; width: 100%; height: 50px; /*padding: 100px auto 0 auto; */position: absolute; bottom: 0; }
-#footer-note { width: 80%; /* the same with main */ margin: auto auto auto auto; color: #113311; font-size: 12px; padding: 20px 0 0 0; font-family: Georgia, Times, 'Times New Roman', serif; position: relative; }
+#footer { margin: 200px auto 0 auto; height: 50px;}
+#footer-note { margin: auto auto auto auto; color: #113311; font-size: 12px; padding: 20px 0 0 0; font-family: Georgia, Times, 'Times New Roman', serif; position: relative; }
 .year p { font-family: Georgia, Times, 'Times New Roman', serif; font-size:24px; }
 #seecomments { background: /*#bce672*/#cccccc; width: 150px; height: 32px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;
 	transition: background-color 1.2s, width 1.2s;

@@ -27,9 +27,15 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 				font-famlily: "宋体";
 				color: #333333;
 				margin: 0 0 0 5px;
+				padding: 0 0 0 4px; 
+				transition: background-color 1.2s, width 1.2s;
+					-moz-transition: background-color 1.2s; /* Firefox 4 */
+					-webkit-transition: background-color 1.2s; /* Safari and Chrome */
+					-o-transition: background-color 1.2s; /* Opera */
 			}
 			#see-blog a:hover {
-				background: #cccccc;
+				background: #888888;
+				color: #ffffff;
 			}
 			.see-blog-dec {
 				font-size: 30px;
@@ -38,13 +44,12 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 			}
 			#see-blog img {
 				position: relative;
-				top: 3px;
+				top: 4px;
 			}
 		</style>
-		<script type="text/javascript" src="js/global.js"></script>
 		<script type="text/javascript" src="http://js.tongji.linezing.com/2940294/tongji.js"></script>
 	</head>
-	<body onload="setFooter();">
+	<body>
 		<div id="main">
 			<div id="header">
 				<div id="logo"><img src='img/logo.gif'></img>ie-Yu的博客</div>
@@ -144,10 +149,10 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 					<div class="clear"></div>
 				</div>
 			</div>
-		</div>
-		<div id="footer">
-			<div id="footer-note">
-				Xie-Yu博客· github/xie-yu · design by 谢彧
+			<div id="footer">
+				<div id="footer-note">
+					Xie-Yu博客· github/xie-yu · design by 谢彧
+				</div>
 			</div>
 		</div>
 	</body>
