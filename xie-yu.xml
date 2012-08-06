@@ -7,6 +7,12 @@
 	<copyright>Copyright 2012 by Xie Yu</copyright>
 	<link>http://xie-yu.github.com/</link>
 	<item>
+		<title>二分图最大匹配的贪心解法及证明</title>
+		<description>二分图最大匹配的经典算法是匈牙利算法，本文给出一种同样是多项式时间复杂度的贪心解法，并给出算法的证明。</description>
+		<link>http://xie-yu.github.com/blog/2012/greedy-method-for-assignment-problem.html</link>
+		<pubDate>Mon, 6 Aug 2012 22:00:00 +0800</pubDate>
+	</item>
+	<item>
 		<title>谷歌搜索的敏感词有哪些</title>
 		<description>分析谷歌网页代码，解析出谷歌搜索的敏感词</description>
 		<link>http://xie-yu.github.com/blog/2012/what-are-the-google-dirty-words.html</link>

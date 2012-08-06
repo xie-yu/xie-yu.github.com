@@ -22,13 +22,13 @@ body { margin: 0; padding: 0; height: 100%; width: 100%; background: url(../img/
 .blog-title-info { width: 30%; padding: 0 0 5px 2px; background: url(../img/1px.gif) bottom left repeat-x; }
 .blog-title-wrap .date {	color: #888888; font-weight: bold; letter-spacing: 1px; line-height: 1; font-family: Georgia, Times, 'Times New Roman', serif; }
 .blog-content-view { margin: 30px auto auto auto; }
-div.blogmore { background: /*#bce672*/#cccccc; width: 100px; height: 32px; padding: 0 0 0 10px;
+div.blogmore { background: #eeeeee; width: 110px; height: 32px; padding: 0 0 0 10px;
 	transition: background-color 1.2s, width 1.2s;
 	-moz-transition: background-color 1.2s, width 1.2s; /* Firefox 4 */
 	-webkit-transition: background-color 1.2s, width 1.2s; /* Safari and Chrome */
 	-o-transition: background-color 1.2s, width 1.2s; /* Opera */
 }
-div.blogmore:hover {	background: #555555; width: 130px; }
+div.blogmore:hover {	background: #cccccc; width: 130px; }
 div.blogmore a { text-align: center; text-decoration: none; font-size: 18px; font-family: 黑体; color: rgb(68, 68, 68); line-height: 1.7em; }
 div.blogmore a:hover { color: #ffffff; }
 p { line-height: 25px; margin-top: 15px; font-size: 16px; letter-spacing: 1px; margin-bottom: 25px; font-weight: 1px; font-family: "宋体", Georgia, Times, 'Times New Roman', serif; }
@@ -40,12 +40,14 @@ code { padding: 1px; border: 1px solid #cccccc; background: #eeeeee; font-family
 #footer { background: #888888; margin: auto auto 0 auto; height: 50px;}
 #footer-note { width: 80%; margin: auto auto auto auto; color: #113311; font-size: 12px; padding: 20px 0 0 0; font-family: Georgia, Times, 'Times New Roman', serif; position: relative; }
 .year p { font-family: Georgia, Times, 'Times New Roman', serif; font-size:24px; }
-#seecomments { background: /*#bce672*/#cccccc; width: 150px; height: 32px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;
+#seecomments { background: #eeeeee; width: 150px; height: 32px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px;
 	transition: background-color 1.2s, width 1.2s;
 	-moz-transition: background-color 1.2s, width 1.2s; /* Firefox 4 */
 	-webkit-transition: background-color 1.2s, width 1.2s; /* Safari and Chrome */
 	-o-transition: background-color 1.2s, width 1.2s; /* Opera */
 }
-#seecomments:hover {	background: #555555; width: 170px; }
+#seecomments:hover {	background: #cccccc; width: 170px; }
 #seecomments a { text-align: center; text-decoration: none; font-size: 18px; font-family: "黑体"; color: #424c50; line-height: 1.7em; }
 #seecomments a:hover { color: #ffffff; }
+#seecomments a img, .blogmore img{ border: none; position: relative; top: 3px; }
+img.math { width: 15px; height: 25px; top: 8px; right: 2px; position: relative; }
