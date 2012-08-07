@@ -79,13 +79,13 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	 body.replaceChild(show, main);
  for(var b=_.K.HG(),c=b.dI(),b=b.getKey(),g=0,h;h=c[g++];){
 	var w="", len=h.length;
- for(var i=0; i&lt;len; i++)
-	w+=window.String.fromCharCode(h[i]^b);
- var bw=document.createElement("div");
- bw.appendChild(document.createTextNode(w));
- show.appendChild(bw)
-	.setAttribute("style",
-		"margin-left:10px;margin-right:10px;font-size:12px");
+	for(var i=0; i&lt;len; i++)
+		w+=window.String.fromCharCode(h[i]^b);
+	var bw=document.createElement("div");
+	bw.appendChild(document.createTextNode(w));
+	show.appendChild(bw)
+		.setAttribute("style",
+			"margin-left:10px;margin-right:10px;font-size:12px");
  }
  void 0;
 							</div></pre>
