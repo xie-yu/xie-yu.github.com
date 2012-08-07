@@ -3,7 +3,7 @@ body { margin: 0; padding: 0; height: 100%; width: 100%; background: url(../img/
 .clear { clear: both; }
 #main {	width: 80%; margin: 0 auto -50px auto; padding-bottom: 50px; min-height: 100%; height: auto !important; height: 100%;  }
 #header { height: 200px; margin: 0 auto auto 0px; }
-#logo { float: left; width: 200px; margin: 50px auto auto 0px; padding: 10px 0px 10px 10px; font-size: 30px; background: #cccccc; color: #000000; font-family: arial,Century gothic,Verdana,Tahoma,sans-serif}
+#logo { float: left; width: 200px; margin: 50px auto auto 0px; padding: 10px 0px 10px 10px; font-size: 30px; background: #cccccc; color: #000000; font-family: arial,Century gothic,Verdana,Tahoma,sans-serif; font-weight: 200; }
 #logo img { width: 30px; height: 30px; position: relative; top: 5px;}
 #index { margin: 60px 0 0 0; width: 70%; float: left; padding: 0 0 3px 0; background: url(../img/2px.gif) bottom left repeat-x;}
 #index span { margin: 0px 0px 0 40px; }
@@ -15,23 +15,23 @@ body { margin: 0; padding: 0; height: 100%; width: 100%; background: url(../img/
 	font-family: arial, sans-serif; }
 #intro-text a { text-decoration: none; }
 #content { width: 68%; margin: 0px auto auto 0; background: url(../img/v-3px.gif) right repeat-y; padding: 0 20px 0 0;}
-.blog-view { padding: 0 0 1px 0; margin-bottom: 25px;}
+.blog-view { padding: 5px 5px 40px 5px; margin-bottom: 5px; background: #ffffff; border: 1px solid #dddddd; }
 .blog-title-wrap { margin-top: 10px; padding-bottom: 10px; }
 .blog-title h1 { margin: 5px 0 5px 0; font-family: arial,Century gothic,Verdana,Tahoma,sans-serif; font-size: 25px; color: #333333; letter-spacing: 1px; }
 .blog-title a { text-decoration: none; }
-.blog-title :hover { color: #668800; }
+.blog-title a h1:hover { color: #668800; }
 .blog-title-info { width: 30%; padding: 0 0 5px 2px; background: url(../img/1px.gif) bottom left repeat-x; }
 .blog-title-wrap .date {	color: #888888; font-weight: bold; letter-spacing: 1px; line-height: 1; font-family: Georgia, Times, 'Times New Roman', serif; }
 .blog-content-view { margin: 30px auto auto auto; }
 div.blogmore { width: 150px; padding: 0px 0px 0px 100px; float: right; background: url(../img/1px.gif) bottom left repeat-x; }
 div.blogmore a:hover {	background-color: #dddddd;}
-div.blogmore a { margin-left: 80px; text-align: center; text-decoration: none; color: #668800; font-size: 18px; font-family: arial sans-serif; line-height: 1.7em;
+div.blogmore a { margin-left: 80px; text-align: center; text-decoration: none; color: #668800; font-size: 18px; font-weight: 500; font-family: arial sans-serif; line-height: 1.7em;
 	transition: background-color 1.2s;
 	-moz-transition: background-color 1.2s; /* Firefox 4 */
 	-webkit-transition: background-color 1.2s; /* Safari and Chrome */
 	-o-transition: background-color 1.2s; /* Opera */
 }
-p { line-height: 25px; margin-top: 15px; font-size: 16px; letter-spacing: 1px; margin-bottom: 25px; font-weight: 1px; font-family: calibri,arial,sans-serif }
+p { line-height: 25px; margin-top: 15px; font-size: 16px; letter-spacing: 1px; margin-bottom: 25px; font-weight: lighter; font-family: calibri,arial,sans-serif }
 a { color: #177caa; }
 p a { color: #666666; padding-bottom: 2px; text-decoration: none; border-bottom: 1px dotted #444444; }
 p a:hover { color: #ffffff; background: #888888; }
@@ -47,7 +47,7 @@ code { padding: 1px; border: 1px solid #cccccc; background: #eeeeee; font-family
 	-o-transition: background-color 1.2s, width 1.2s; /* Opera */
 }
 #seecomments:hover {	background: #cccccc; width: 170px; }
-#seecomments a { text-align: center; text-decoration: none; font-size: 18px; font-family: "黑体"; color: #424c50; line-height: 1.7em; }
+#seecomments a { text-align: center; text-decoration: none; font-size: 18px; font-family: "黑体"; color: #424c50; line-height: 1.7em; font-weight: bolder; }
 #seecomments a:hover { color: #ffffff; }
 #seecomments a img, .blogmore img{ border: none; position: relative; top: 0px; height: 25px; }
 img.math { width: 15px; height: 25px; top: 8px; right: 2px; position: relative; }
