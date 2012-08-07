@@ -11,7 +11,8 @@ body { margin: 0; padding: 0; height: 100%; width: 100%; background: url(../img/
 #index span a:hover { background: #555555; color: #ffffff; }
 #index span a.index-sel { color: #000000; background: #888888; }
 #self-intro { position: relative; z-index: 1; float: right; margin-right: 50px; }
-#intro-text { margin-top: 5px; padding-bottom: 5px; color: #999999; font-size: 14px; line-height: 20px; background: url(../img/1px.gif) bottom left repeat-x; }
+#intro-text { margin-top: 5px; padding-bottom: 5px; color: #999999; font-size: 14px; line-height: 20px; background: url(../img/1px.gif) bottom left repeat-x; 
+	font-family: arial, sans-serif; }
 #intro-text a { text-decoration: none; }
 #content { width: 68%; margin: 0px auto auto 0; background: url(../img/v-3px.gif) right repeat-y; padding: 0 20px 0 0;}
 .blog-view { padding: 0 0 1px 0; margin-bottom: 25px;}
@@ -30,7 +31,7 @@ div.blogmore a { margin-left: 80px; text-align: center; text-decoration: none; c
 	-webkit-transition: background-color 1.2s; /* Safari and Chrome */
 	-o-transition: background-color 1.2s; /* Opera */
 }
-p { line-height: 25px; margin-top: 15px; font-size: 16px; letter-spacing: 1px; margin-bottom: 25px; font-weight: 1px; font-family: Georgia, Times, 'Times New Roman', serif; }
+p { line-height: 25px; margin-top: 15px; font-size: 16px; letter-spacing: 1px; margin-bottom: 25px; font-weight: 1px; font-family: calibri,arial,sans-serif }
 a { color: #177caa; }
 p a { color: #666666; padding-bottom: 2px; text-decoration: none; border-bottom: 1px dotted #444444; }
 p a:hover { color: #ffffff; background: #888888; }
