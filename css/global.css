@@ -49,5 +49,5 @@ code { padding: 1px; border: 1px solid #cccccc; background: #eeeeee; font-family
 #seecomments:hover {	background: #cccccc; width: 170px; }
 #seecomments a { text-align: center; text-decoration: none; font-size: 18px; font-family: "黑体"; color: #424c50; line-height: 1.7em; }
 #seecomments a:hover { color: #ffffff; }
-#seecomments a img, .blogmore img{ border: none; position: relative; top: 3px; }
+#seecomments a img, .blogmore img{ border: none; position: relative; top: 0px; height: 25px; }
 img.math { width: 15px; height: 25px; top: 8px; right: 2px; position: relative; }
