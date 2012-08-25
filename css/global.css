@@ -17,7 +17,7 @@ body { margin: 0; padding: 0; height: 100%; width: 100%; background: url(../img/
 #content { width: 68%; margin: 0px auto auto 0; background: url(../img/v-3px.gif) right repeat-y; padding: 0 20px 0 0;}
 .blog-view { padding: 5px 5px 40px 5px; margin-bottom: 5px; border-top: 2px solid #eeeeee; border-left: 2px solid #eeeeee;}
 .blog-title-wrap { margin-top: 10px; padding-bottom: 10px; }
-.blog-title h1 { margin: 5px 0 5px 0; font-family: arial,Century gothic,Verdana,Tahoma,sans-serif; font-size: 25px; color: #333333; letter-spacing: 1px; }
+.blog-title h1 { text-shadow: 2px 4px 5px; margin: 5px 0 5px 0; font-family: arial,Century gothic,Verdana,Tahoma,sans-serif; font-size: 25px; color: #333333; letter-spacing: 1px; }
 .blog-title a { text-decoration: none; }
 .blog-title a h1:hover { color: #668800; }
 .blog-title-info { width: 30%; padding: 0 0 5px 2px; background: url(../img/1px.gif) bottom left repeat-x; }
@@ -51,3 +51,8 @@ code { padding: 1px; border: 1px solid #cccccc; background: #eeeeee; font-family
 #seecomments a:hover { color: #ffffff; }
 #seecomments a img, .blogmore img{ border: none; position: relative; top: 0px; height: 25px; }
 img.math { width: 15px; height: 25px; top: 8px; right: 2px; position: relative; }
+.link-to { width: 400px; float: right; padding-top: 10px; margin: 15px auto 15px auto; background: url(../img/1px.gif) top right repeat-x;}
+.link-to a {text-decoration: none; font-size: 14px; color: #668800; font-family: "song", Georgia, Times, 'Times New Roman', serif;}
+.link-to a:hover {text-decoration: underline;}
+.link-toleft { float: right;}
+.link-toright { float: right; margin-left: 20px}
