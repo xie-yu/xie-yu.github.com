@@ -7,6 +7,12 @@
 	<copyright>Copyright 2012 by Xie Yu</copyright>
 	<link>http://xie-yu.github.com/</link>
 	<item>
+		<title>一段Old Style C代码：不带类型声明的形参</title>
+		<description>本文展示了一段古怪的K&R式C代码，涉及浮点数的表示方法、小尾端的字节序相关内容。</description>
+		<link>http://xie-yu.github.com/blog/2012/old-style-c-concerning-floating-point-representation.html</link>
+		<pubDate>Thu, 13 Sep 2012 12:09:40 +8000</pubDate>
+	</item>
+	<item>
 		<title>二分图最大匹配的贪心解法及证明</title>
 		<description>二分图最大匹配的经典算法是匈牙利算法，本文给出一种同样是多项式时间复杂度的贪心解法，并给出算法的证明。</description>
 		<link>http://xie-yu.github.com/blog/2012/greedy-method-for-assignment-problem.html</link>
