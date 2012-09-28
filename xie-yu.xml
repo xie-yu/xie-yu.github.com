@@ -7,7 +7,7 @@
 	<copyright>Copyright 2012 by Xie Yu</copyright>
 	<link>http://xie-yu.github.com/</link>
 	<item>
-		<title>也来写一写后缀数组的倍增法构造<title>
+		<title>也来写一写后缀数组的倍增法构造</title>
 		<description>历时一周，终于搞定倍增法构造后缀数组的算法，及height数组的计算，特发牢骚一篇</description>
 		<link>http://xie-yu.github.com/blog/2012/get-suffix-array-using-doubling-method.html</link>
 		<pubDate>Tue, 25 Sep 2012 12:58:03 +80000</pubDate>
