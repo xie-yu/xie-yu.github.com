@@ -1,0 +1,20 @@
+﻿body{margin:0;padding:0;}
+em{color:#1310aa;font-style:normal;}
+.clear{clear:both;}
+.notation{font-size:15px;color:#aaaaaa;}
+.slide{margin:auto;width:70%;margin-top:60px;}
+.grey{color:#999999;}
+.italic{font-style:italic;}
+.date{color:#aaaaaa;line-height:2em;}
+.slide_header{font-weight:bold;font-size:30px;padding:0 0 60px 10px;color:#991111;}
+#front_page_title{margin-right:30px;padding:0 30px 0 0;float:left;font-size:100px;font-weight:bold;color:#2e2e2e;border-right:5px solid #2f2f2f;}
+#front_page_sign{padding-top:230px;font-weight:bold;color:#2e2e2e;margin-bottom:0px;float:left;font-size:40px;}
+#the-end{font-weight:bold;font-size:80px;margin-top:400px;}
+.list{padding-left:40px; font-size:35px;margin-bottom: 30px;}
+.list.no-sub{background: url(./no-sub.png) top left no-repeat;}
+.list.has-sub{background: url(./has-sub.png) top left no-repeat;}
+.title{margin-bottom:30px;font-weight:bold;color:#999999;}
+.content{ margin-left:5px;}
+.sublist{margin:20px auto auto 50px;border-left: 5px solid #1111aa; padding-left:10px;}
+.sublist .title{font-size:20px;}
+.sublist .content{font-size:20px;}

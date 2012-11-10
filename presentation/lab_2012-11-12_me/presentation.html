@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang='zh-CN'>
+<head>
+	<title>Progress and Challenges in Intelligent Vehicle Area Networks</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="presentation.css" />
+	<link rel="stylesheet" type="text/css" href="./jquery-foxibox-0.2.min/style/jquery-foxibox-0.2.css" />
+	<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="presentation.js"></script>
+	<script type="text/javascript" src="./jquery-foxibox-0.2.min/script/jquery-foxibox-0.2.min.js"></script>
+</head>
+<body>
+	<div class='slide'>
+		<div class='slide_header'>PAPER REVIEW <span class='notation'>
+		[press <em>F11</em> for fullscreen, then use <em>LEFT</em>/<em>RIGHT</em> to play. enjoy yourself...]</span></div>
+		<div id='front_page_title'>车域网<br /><span class='grey'>的</span><br />发展<span class='grey'>和</span>挑战</div>
+		<div id='front_page_sign'>谢 彧<br /><span class='date'>2012-11-12</span></div>
+		<div class='clear'></div>
+	</div>
+	<div class='slide'>
+		<div class='slide_header'>Vehicle Area Network<span class='grey'>&nbsp;»&nbsp;</span>key insights</div>
+		<div class='list no-sub'><span class='title'>论文重点：</span><span class='content'></span>交通事故 通信安全 标准</div>
+		<div class='list has-sub'><span class='title'>车域网&nbsp;&nbsp;：</span><span class='content'>设备间数据通信分析--无事故交通</span><div class='sublist'>
+				<div><span class='title'>类别--</span><span class='content'>车内通信 车间通信（V2V V2B V2I）</span></div>
+				<div style='margin-top:20px;'>
+					<a href="van.jpg" rel="[gall1]" title="van description">
+						<img src="van_thumb.png" alt="van description" width="127" height="104" />
+					</a><span class='notation'>(click to see larger picture)</span>
+				</div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>应用举例</span><div class='sublist'>
+				<div><span class='title'>PATH</span><span class='content'>高速路的容量、安全</span></div>
+				<div><span class='title'>SafeTrip-21</span><span class='content'>通信、导航</span></div>
+				<div><span class='title'>CEmACS</span></div>
+				<div><span class='title'>ERP2</span></div>
+				<div><span class='title'>电动车</span><span class='content'>能源利用</span></div>
+		</div></div>
+	</div>
+	<div class='slide'>
+		<div class='slide_header'>Vehicle Area Network<span class='grey'>&nbsp;»&nbsp;</span>In-Vehicle Communication</div>
+		<div class='list has-sub'><span class='title'>车内通信：</span><span class='content'>检测车况、司机疲劳度</span><div class='sublist'>
+				<div><span class='title'>车载设备(OBE)</span></div>
+				<div><span class='title'>物理生物学</span><span class='content'>ECG EOG EMG ...</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>车内通信网络：</span><span class='content'>联络各个OBE</span><div class='sublist'>
+				<div><span class='title'>Controller Area Network(CAN): </span><span class='content'>since 1986, 500kbps, 40m</span></div>
+				<div><span class='title'>Local Inter-connect Network(LIN): </span><span class='content'>since 1999, low cost, low speed(19.2kbps)</span></div>
+				<div><span class='title'>FlexRay: </span><span class='content'>10Mbps, to replace CAN</span></div>
+				<div><span class='title'>MOST: </span><span class='content'>since 2001, media-oriented, 24.8Mbps</span></div>
+				<div><span class='title'>J1850: </span><span class='content'>required for USA cars...</span></div>
+				<div style='margin-top:10px;'>
+					<span class='title'>以上网络协议的比较：</span><a href="in-vehicle-protocals.png" rel="[gall1]" title="in-vehicle protocal">
+						<img src="in-vehicle-protocals-thumb.png" alt="in-vehicle protocal" width="70" height="34" />
+					</a><span class='notation'>(click to see larger picture)</span>
+				</div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>挑战</span><div class='sublist'>
+				<div><span class='title'>物理生物学传感器：</span><span class='content'>加强传感器之间、和数据中心之间的数据交换</span></div>
+				<div><span class='title'>数据分析：</span><span class='content'>需要增强。。。（bullshit）</span></div>
+				<div><span class='title'>车内通信网络：</span><span class='content'>应对严酷的无线网络环境</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>当前的工作</span><div class='sublist'>
+				<div><span class='title'>Intel In-Vehicle Devices: </span><span class='content'>processor，since 2008, 有汽车商合作</span></div>
+				<div><span class='title'>汽车软件：</span><span class='content'>GENIVI, QNX...</span></div>
+		</div></div>
+	</div>
+	<div class='slide'>
+		<div class='slide_header'>Vehicle Area Network<span class='grey'>&nbsp;»&nbsp;</span>Vehicle-to-Vehicle Communication</div>
+		<div class='list has-sub'><span class='title'>车-车通信：</span><span class='content'>数据交换平台、协作系统</span><div class='sublist'>
+				<div><span class='title'>无线网络：</span><span class='content'>GSM, GPRS, 广播, 雷达, GPS, WLAN...</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>挑战</span><div class='sublist'>
+				<div><span class='title'>硬件|软件|固件：</span><span class='content'>far from mature...</span></div>
+				<div><span class='title'>协作通信</span><span class='content'>协作、认知，确定车辆需要发送/接受哪些数据，以提高效率</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>当前的工作</span><div class='sublist'>
+				<div><span class='title'>AR5000: </span><span class='content'>120mph with distance of 400m, 错误率&lt;0.1%</span></div>
+				<div><span class='title'>INRIX: </span><span class='content'>利用实时交通数据实现导航、智能驾驶</span></div>
+		</div></div>
+	</div>
+	<div class='slide'>
+		<div class='slide_header'>Vehicle Area Network<span class='grey'>&nbsp;»&nbsp;</span>Vehicle-to-Cloud Communication</div>
+		<div class='list has-sub'><span class='title'>车-云端通信：</span><span class='content'>协助驾驶、汽车追踪</span><div class='sublist'>
+			<div><span class='title'>发送的数据：</span><span class='content'>车况、司机疲劳度、驾驶距离、多媒体...</span></div>
+			<div><span class='title'>接收的数据：</span><span class='content'>各类数据</span></div>
+			<div><span class='title'>V2C可作为和路边设施通信的子系统</span><span class='content'></span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>挑战</span><div class='sublist'>
+			<div><span class='title'>未知的东西：</span><span class='content'>确定需要传送哪些数据</span></div>
+			<div><span class='title'>网关：</span><span class='content'>无线接入口</span></div>
+			<div><span class='title'>数据处理：</span><span class='content'>数据中心/车辆，集中式/分布式</span></div>
+			<div><span class='title'>车队管理</span><span class='content'></span></div>
+			<div><span class='title'>隐私、信息安全：</span><span class='content'>加密技术</span></div>
+		</div></div>
+	</div>
+	<div class='slide'>
+		<div class='slide_header'>Vehicle Area Network<span class='grey'>&nbsp;»&nbsp;</span>Vehicle-to-Road Communication</div>
+		<div class='list no-sub'><span class='title'>车-路通信：</span><span class='content'>及时收发需要的信息（天气、交通...）</span></div>
+		<div class='list has-sub'><span class='title'>挑战</span><div class='sublist'>
+			<div><span class='title'>下一代车载雷达</span><span class='content'></span></div>
+			<div><span class='title'>优化：</span><span class='content'>数据量大</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>当前的工作</span><div class='sublist'>
+			<div><span class='title'>RFID：</span><span class='content'>发现障碍物、行人</span></div>
+		</div></div>
+	</div>
+	<div class='slide'>
+		<div class='slide_header'>Vehicle Area Network<span class='grey'>&nbsp;»&nbsp;</span>VAN Communication Standards</div>
+		<div class='list has-sub'><span class='title'>车域网标准:</span><span class='content'>基于移动网络标准</span><div class='sublist'>
+			<div><span class='title'>IEEE 802.11p: </span><span class='content'>物理层，V2V&&V2I</span></div>
+			<div><span class='title'>IEEE 1609.1: </span><span class='content'>定义通信数据的格式</span></div>
+			<div><span class='title'>IEEE 1609.2: </span><span class='content'>定义安全消息的格式</span></div>
+			<div><span class='title'>IEEE 1609.3: </span><span class='content'>网络层、连接层</span></div>
+			<div><span class='title'>IEEE 1609.4: </span><span class='content'>Meadia Access Controll</span></div>
+			<div><span class='title'>ASTM E2213-03: </span><span class='content'>定义路边设施和车辆的通信，物理层和MAC层</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>挑战</span><div class='sublist'>
+			<div><span class='title'>自定义协议：</span><span class='content'>应对各种各样的应用</span></div>
+			<div><span class='title'>802.11：</span><span class='content'>移动性、多路传播、低带宽、安全性</span></div>
+			<div><span class='title'>802.11p：</span><span class='content'>不足以应对车辆数目大的网络</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>现有的方案</span><div class='sublist'>
+			<div><span class='title'>Cohda无线：</span><span class='content'>支持802.11p</span></div>
+		</div></div>
+	</div>
+	<div class='slide'>
+		<div class='slide_header'>Vehicle Area Network<span class='grey'>&nbsp;»&nbsp;</span>Security and Privacy of VAN</div>
+		<div class='list has-sub'><span class='title'>车域网的安全问题</span><div class='sublist'>
+			<div><span class='title'>传送错误的信息：</span><span class='content'>节点发布虚假消息</span></div>
+			<div><span class='title'>消息太多：</span><span class='content'>拥塞、（故意发布带攻击性的）垃圾消息</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>措施——车内的异常监测</span><span class='content'>数据/分组分析、网络流监督</span><div class='sublist'>
+			<div><span class='title'>司机监测：</span><span class='content'>生物物理学、车速、GPS...</span></div>
+			<div><span class='title'>疲劳检测</span><span class='content'>判断司机的常态/异常态</span></div>
+		</div></div>
+		<div class='list has-sub'><span class='title'>措施——通信的安全</span><div class='sublist'>
+			<div><span class='title'>Geocast（受制于拥塞和过载）：</span><span class='content'>依概率决定转发情况</span></div>
+			<div><span class='title'>垃圾信息：</span><span class='content'>message loss avoidance techniques</span></div>
+			<div><span class='title'>其他：</span><span class='content'>数字签名、私钥/公钥……</span></div>
+		</div></div>
+	</div>
+	<div class='slide'>
+		<div id='the-end'><span class='grey'>THE END...&nbsp;</span>THANK YOU</div>
+	</div>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		init();
+		$('a[rel]').foxibox();
+	});
+</script>
+</html>
