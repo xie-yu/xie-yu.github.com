@@ -1,0 +1,41 @@
+﻿html, body {margin:0; padding:0;height:100%;}
+body{line-height:1.625em; font-size: 1em;
+font-family:"Marmelad", "WenQuanYi ZenHei", 文泉驿正黑, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", 微软雅黑, Helvetica, Arial, Sans-Serif}
+.clear{clear:both;}
+img{border:none;}
+pre{font-family:"Courier"}
+a{text-decoration: none; border-bottom: 1px dotted #7e6f07; color: #1a1602;}
+a:hover{font-weight:6em}
+#centrify{width:1000px; height: auto !important; margin:20px auto -198px 150px; min-height: 100%}
+#logo{float:left; margin:0 10px 0 0; margin-left: -26px;}
+#logo a{border:none;}
+#intro{font-size: 14px; width: 430px; height: 150px; float:left; margin:5px 0 0 0px; border-left: solid 5px #7e6f07; padding: 17px 0 0 25px; color: #585757;}
+#intro .em_text{color: #7e6f07;}
+#intro p{margin: 0px}
+#intro a{color:#7e6f07;}
+#content{margin-top: 5px; border-top: solid 2px #7e6f07; padding-top: 3px;}
+#cat_study{min-height: 100px; background: left top no-repeat url(../image/study-tag.gif); float: left; width: 450px;}
+#cat_life{min-height: 100px; background: left top no-repeat url(../image/life-tag.gif); float: left; width: 520px; margin-left: 10px;}
+.cat{margin: 10px 0 0 40px; color: #242001;}
+.cat a{color: #242001;text-decoration: none; border-bottom: 1px dotted #7e6f07;}
+.cat a:hover{font-weight: 6em; color: #7e6f07; text-decoration: none;}
+.cat p{magin-bottom: 0px; font-size: 14px;}
+#push{min-height:198px;}
+#footer{background: #dbd5ac; min-height: 198px; margin:auto auto 0 auto;}
+#footer_content{width:1000px; margin:20px auto 0 150px;}
+#avartar{float:left;}
+#avartar img{height: 150px; }
+#footer_note{float:left; margin:10px 0 10px 20px; border-left: solid 2px #7e6f07; min-height: 150px; padding-left: 20px; color: #1a1602; font-size:12px;}
+#link{margin-top:10px;}
+#blog{padding-top:15px; margin-bottom: 150px; width: 735px;}
+#blog h1{color:1a1602; font-size: 1.5em;}
+#blog p{margin-bottom: 30px;}
+#blog p.date {margin-bottom: 40px; color: #999999;}
+.blog_em_text{color: #898989; font-weight: bold; }
+.block_quote{border-left: 5px solid #7e6f07; margin-left: 40px; padding-left: 20px; font-size: 12px;}
+.left_right{float:right; color: #999999;}
+.left_right a{color: #999999;}
+.blog_bold_italic_text{font-weight:bold; font-style:italic;}
+img.float_img{float:left; margin: 6px 10px 6px 0;}
+.notes{font-style:italic; color:#888888;}
+code{border:1px solid; margin:0 5px; padding: 0 2px;}

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang='zh-CN'>
+<head>
+	<title>词性标注的联想|了不起的程序员——Xie-Yu的博客</title>
+	<meta charset="utf-8">
+	<META NAME="Description" CONTENT="马尔科夫模型词性标注器的一点笔记">
+	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://xie-yu.github.com/xie-yu.xml" />
+	<link rel="shortcut icon" href="../../favicon.ico" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../../css/xie-yu.css" />
+	<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body><div id='centrify'>
+	<div id='header'>
+		<div id='logo'><a href='http://xie-yu.github.com' target='_self'><img src='../../image/the-great-programmer.gif'></img></a></div>
+		<div id='intro'>
+			本博客名为<span class='em_text'> the great programmer</span>，这也许能让你想到Dijkstra的图灵奖演说 <span class='em_text'>the humble programmer</span>.
+			<p> </p>没错，这是个不怎么高明的自嘲，<p> </p>一个有点犬儒主义的反讽.<p> </p>
+			如果你喜欢本博客，欢迎订阅 <a href='http://feeds.feedburner.com/xie-yu' target='_blank'>RSS</a>
+		</div>
+		<div class='clear'></div>
+	</div>
+	<div id='content'>
+		<div id='link'><a href='http://xie-yu.github.com' target='_self'>首页</a> » 学习</div>
+		<div id='blog'>
+			<h1>词性标注的联想</h1>
+			<p class='date'>2012-12-27</p>
+			<p>这学期的人工智能课大作业，我选了最简单的词性标注，实际上也就是实现了几个公式、算法。</p>
+			<p>最开始我自己瞎琢磨的时候，感觉词性标注应当是这样的：一个词最终标注为哪种词性，既和这个词本身有关，也和词在语句中的位置有关，为了简单，不妨暂时只考虑之前一个词的影响。<!--
+			-->从统计方法上考虑，就得到两个概率：P(词w标记为词性 i )，P(前一个词的词性为 i 的条件下，当前词为词性 j)。想到这里就很难继续了，因为不知道如何综合利用这两个概率。</p>
+			<p>如你所知，做词性标注常用的马尔科夫模型，使用的是这两个概率：P(词性 i 赋予词w)，P(前一个词的词性为 i 的条件下，当前词为词性 j)。据此，也可以<!--
+			-->修正原来的想法，使用这两个概率：P(词w标记为词性 i )，P(前一个词为w，当前词性为i)，套用到马尔科夫模型中去。</p>
+			<p>对比后两对概率，马尔科夫模型标注器中使用的确实更纯净，是语法的直接抽象。不过，为什么我会直觉地想起最开始的那对概率呢？</p>
+			<p>这个问题或许可以抽象成这两种观点：<br></br><p class='block_quote'>
+				1. tag这个词，因为它是tag，所以它可以作名词，有时候也做动词；<br></br>
+				2. tag这个词，因为它出现在名词应该出现的位置，所以它是名词，它又出现在动词应该出现的位置，这些时候它是动词。<br></br></p>
+			<p>我的直觉选择的是第一种观点，马尔科夫模型——从某种意义上来说——选择的是第二种观点。我更愿意相信第二种观点，但这种观点容易显得极端：词本身似乎没有意义了，语法凌驾在<!--
+			-->语言之上，但是词不是一句话实实在在的内容吗？ 我猜想在语言开始的时候， 比如小孩刚学语言的时候， 名词最开始习得，而名词确定之后，其他位置好像就显得理所当然了？</p>
+			<p>这是个很深奥的问题。虽然现在没想明白，但是我觉得一般文章讲述词性标注时，上来就拿词可能具有多个词性来说明为什么需要词性标注（这是第一种观点），用到的方法却是马尔科夫模型（第二种观点），这样过于简陋。</p>
+			<p class='left_right'>
+				« <a href='../life/dress-for-the-dead.html'>寿衣</a>&nbsp;
+				<a href='stick-footer-to-bottom-of-the-page.html'>如何让footer保持在页面底端</a> »
+			</p><p class='clear'></p>
+			<div id="disqus_thread"></div>
+				<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'marcieinredgithubpage'; // required: replace example with your forum shortname
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+						var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+						(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+		</div>
+		<div class='clear'></div>
+	</div>
+	<div id='push'></div>
+</div>
+<div id='footer'>
+<div id='footer_content'>
+	<div id='avartar'><img src='../../image/me.gif'></img></div>
+	<div id='footer_note'>
+		我是Xie-Yu，邮箱：xieofyu at gmail.com<p> </p>
+		在豆瓣上，我叫：<a href='http://www.douban.com/people/xie-yu/' target='_blank'>大水泥车</a><p> </p>
+		是个很无趣的人，活在无趣的生活中<p> </p>
+		但启发我开博客的那个<a href='http://yangzetian.github.com' target='_blank'>家伙</a>，还蛮有意思. 我直接从他的博客那里抄来了字体的设置<p> </p>
+		© design by xie-yu
+	</div>
+	<div class='clear'></div>
+</div>
+</div>
+</body>
+</html>

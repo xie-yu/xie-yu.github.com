@@ -1,156 +1,54 @@
-﻿<!DOCTYPE html
-PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang='zh-CN'>
-	<head>
-		<title>Xie-Yu的博客</title>
-		<meta charset="utf-8">
-		<link rel="shortcut icon" href="./favicon.ico" type = "image/x-icon">
-		<link rel="stylesheet" type="text/css" href="css/global.css" />
-		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://xie-yu.github.com/xie-yu.xml" />
-		<style type="text/css">
-			#see-blog-wrapper {
-				margin-top: 0px;
-				padding: 20px 5px 5px 5px;
-				
-			}
-			#see-blog {
-				width: 300px;
-				padding: 0 0 0px 0;
-				margin: -40px auto 0px 0;
-				background: url(img/1px.gif) bottom left repeat-x;
-			}
-			
-			#see-blog a {
-				text-shadow: 1px 2px 1px #999999;
-				text-decoration: none;
-				font-size: 30px;
-				font-familly: 'GothicCustom', 'Arial Narrow', sans-serif;
-				color: #333333; }
-			#see-blog a:hover {
-				color: #668800;
-			}
-			.see-blog-dec {
-				font-size: 30px;
-				margin: 0 5px 0 0;
-				color: #ccbbcc;
-			}
-			.arrow {
-				color: #777777;
-				font-size: 35px;
-				font-family: 'GothicCustom', 'Arial Narrow', sans-serif;
-			}
-			.stuff { clear: both; height: 30px; width: 100%; }
-		</style>
-		<script type="text/javascript" src="http://js.tongji.linezing.com/2940294/tongji.js"></script>
-	</head>
-	<body>
-		<div id="main">
-			<div id="header">
-				<div id="logo"><img src='img/logo.gif'></img>ie-Yu的博客</div>
-				<div id="index">
-					<span><a href="index.html" class="index-sel">首页</a></span>
-					<span><a href="blog/index.html">博客</a></span>
-					<span><a href="about.html">关于</a></span>
-				</div>
-				<div id="self-intro">
-					<div id="avatar">
-						<img src="img/me.gif"></img>
-					</div>
-					<div id="intro-text">
-						我是谢彧，在这里写博客<br />
-						记录下学习的收获<br />
-						实践有趣的想法<br />
-						你可以通过<a href='http://feeds.feedburner.com/xie-yu' target="_blank"> RSS </a>获得本博客的更新<br />
-						我的邮箱是：xieofyu at gmail.com
-					</div>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div id="content">
-				<div class="blog-view">
-					<div class="blog-title-wrap">
-						<div class="blog-title">
-							<a href="blog/2012/get-suffix-array-using-doubling-method.html"><h1>也来写一写后缀数组的倍增法构造</h1></a>
-						</div>
-						<div class="blog-title-info">
-							<span class="date">2012-9-25</span>
-						</div>
-					</div>
-					<div class="blog-content-view">
-						<p>
-							整整这一周都在折腾后缀数组。大概是前天，终于实现了倍增法构造后缀数组的算法，之后又花了几天时间，才把height数组<!--
-							-->正确的求出来。不用说，我自脑力不胜，但折腾这么长的时间，不能说和网络上各种不甚明白的后缀数组文章没有关系。网上<!--
-							-->后缀数组的文章一大把，但除了2篇或3篇能看到作者自己的思考的文章外，其他无外乎就是摘抄IOI的那2篇论文。这些文章，<!--
-							-->因为没有了原论文的数学公式格式，加之又不愿意整个论文copy下来，东拼西凑，变得很难阅读。当然最本质的是，所谓“模板”<!--
-							-->的那个算法，很厉害很飘逸，要读懂的确不容易……
-						</p>
-						<p>
-							<div class="blogmore">
-								<a href="blog/2012/get-suffix-array-using-doubling-method.html">全 文 »</a>
-							</div>
-						</p>
-					</div>
-				</div>
-				<div class="blog-view">
-					<div class="blog-title-wrap">
-						<div class="blog-title">
-							<a href="blog/2012/old-style-c-concerning-floating-point-representation.html"><h1>一段Old Style C代码：不带类型声明的形参</h1></a>
-						</div>
-						<div class="blog-title-info">
-							<span class="date">2012-9-13</span>
-						</div>
-					</div>
-					<div class="blog-content-view">
-						<p>
-							想想看下面一段程序的输出是什么？注意看sqr函数的形参部分，噢，它真的是合法的，只是模样有点古怪，这就是所谓的Old Style（K&R）C...
-						</p>
-						<p>
-							<div class="blogmore">
-								<a href="blog/2012/old-style-c-concerning-floating-point-representation.html">全 文 »</a>
-							</div>
-						</p>
-					</div>
-				</div>
-				<div class="blog-view">
-					<div class="blog-title-wrap">
-						<div class="blog-title">
-							<a href="blog/2012/greedy-method-for-assignment-problem.html"><h1>二分图最大匹配的贪心解法及证明</h1></a>
-						</div>
-						<div class="blog-title-info">
-							<span class="date">2012-8-6</span>
-						</div>
-					</div>
-					<div class="blog-content-view">
-						<p>
-							二分图最大匹配问题的经典解法是匈牙利算法，不过做题的时候，有些同学，包括我，使用的是一种贪心算法。<!--
-							-->这种贪心算法同样能在多项式时间内解决问题，<!--
-							-->倒不比匈牙利算法好，只是因人而异，写起来顺手。正如一个人初学骑车时没学习怎样单脚上车，<!--
-							-->那他可能再也不能学会（或者再也不会去学习）单脚上车了……
-						</p>
-						<p>
-							<div class="blogmore">
-								<a href="blog/2012/greedy-method-for-assignment-problem.html">全 文 »</a>
-							</div>
-						</p>
-					</div>
-				</div>
-				<div class='stuff'></div>
-				<div id="see-blog-wrapper">
-					<div id="see-blog">
-						<a href="blog/index.html">全部博客</a><span class='arrow'>→</span>
-					</div>
-				</div>
-			</div>
-			<div id="push">
-				
+<head>
+	<title>了不起的程序员——Xie-Yu的博客</title>
+	<meta charset="utf-8">
+	<META NAME="Description" CONTENT="xie-yu博客的首页 谢彧">
+	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://xie-yu.github.com/xie-yu.xml" />
+	<link rel="shortcut icon" href="./favicon.ico" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/xie-yu.css" />
+</head>
+<body><div id='centrify'>
+	<div id='header'>
+		<div id='logo'><img src='./image/the-great-programmer.gif'></img></div>
+		<div id='intro'>
+			本博客名为<span class='em_text'> the great programmer</span>，这也许能让你想到Dijkstra的图灵奖演说 <span class='em_text'>the humble programmer</span>.
+			<p> </p>没错，这是个不怎么高明的自嘲，<p> </p>一个有点犬儒主义的反讽.<p> </p>
+			如果你喜欢本博客，欢迎订阅 <a href='http://feeds.feedburner.com/xie-yu' target='_blank'>RSS</a>
+		</div>
+		<div class='clear'></div>
+	</div>
+	<div id='content'>
+		<div id='cat_study'>
+			<div class='cat'>
+				<p>2012-12-27 » <a href='blog/study/stick-footer-to-bottom-of-the-page.html'>如何让footer保持在页面底端</a></p>
+				<p>2012-12-27 » <a href='blog/study/markov-pos-tagging.html'>词性标注的联想</a></p>
+				<p>2012-09-13 » <a href='blog/study/old-style-c-concerning-floating-point-representation.html'>一段Old Style C代码：不带类型声明的形参</a></p>
+				<p>2012-08-06 » <a href='blog/study/proof-of-greedy-method-for-assignment-problem.html'>二分图最大匹配的贪心解法及证明</a></p>
 			</div>
 		</div>
-		<div id="footer">
-			<div id="footer-note">
-				Xie-Yu博客· github/xie-yu · design by 谢彧
+		<div id='cat_life'>
+			<div class='cat'>
+				<p>2012-12-22 » <a href='blog/life/dress-for-the-dead.html'>寿衣</a></p>
+				<p>2012-10-28 » <a href='blog/life/little-paper-boards.html'>小报栏</a></p>
+				<p>2011-01-23 » <a href='blog/life/xiao-tao-and-xiao-wang.html'>由小陶想起一位小王</a></p>
 			</div>
-		</div>		
-	</body>
+		</div>
+		<div class='clear'></div>
+	</div><div id='push'></div>
+</div>
+<div id='footer'>
+<div id='footer_content'>
+	<div id='avartar'><img src='./image/me.gif'></img></div>
+	<div id='footer_note'>
+		我是Xie-Yu，邮箱：xieofyu at gmail.com<p> </p>
+		在豆瓣上，我叫：<a href='http://www.douban.com/people/xie-yu/' target='_blank'>大水泥车</a><p> </p>
+		是个很无趣的人，活在无趣的生活中<p> </p>
+		但启发我开博客的那个<a href='http://yangzetian.github.com' target='_blank'>家伙</a>，还蛮有意思. 我直接从他的博客那里抄来了字体的设置<p> </p>
+		© design by xie-yu
+	</div>
+	<div class='clear'></div>
+</div>
+</div>
+</body>
 </html>
