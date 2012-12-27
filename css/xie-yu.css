@@ -13,7 +13,7 @@ a:hover{font-weight:6em}
 #intro .em_text{color: #7e6f07;}
 #intro p{margin: 0px}
 #intro a{color:#7e6f07;}
-#content{margin-top: 5px; border-top: solid 2px #7e6f07; padding-top: 3px;}
+#content{margin-top: 25px; border-top: solid 2px #7e6f07; padding-top: 25px;}
 #cat_study{min-height: 100px; background: left top no-repeat url(../image/study-tag.gif); float: left; width: 450px;}
 #cat_life{min-height: 100px; background: left top no-repeat url(../image/life-tag.gif); float: left; width: 520px; margin-left: 10px;}
 .cat{margin: 10px 0 0 40px; color: #242001;}
