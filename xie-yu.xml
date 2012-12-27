@@ -7,40 +7,46 @@
 	<copyright>Copyright 2012 by Xie Yu</copyright>
 	<link>http://xie-yu.github.com/</link>
 	<item>
-		<title>也来写一写后缀数组的倍增法构造</title>
-		<description>历时一周，终于搞定倍增法构造后缀数组的算法，及height数组的计算，特发牢骚一篇</description>
-		<link>http://xie-yu.github.com/blog/2012/get-suffix-array-using-doubling-method.html</link>
-		<pubDate>Tue, 25 Sep 2012 12:58:03 +80000</pubDate>
+		<title>如何让footer保持在页面底端</title>
+		<description>介绍一种让footer保持在页面底端的简单技术，只有CSS</description>
+		<link>http://xie-yu.github.com/blog/study/stick-footer-to-bottom-of-the-page.html</link>
+		<pubDate>Thu, 27 Dec 2012 22:01:37 +8000</pubDate>
+	</item>
+	<item>
+		<title>词性标注的联想</title>
+		<description>由词性标注想到语言问题，一些维特根斯坦式哲学问题</description>
+		<link>http://xie-yu.github.com/blog/study/markov-pos-tagging.html</link>
+		<pubDate>Thu, 27 Dec 2012 15:32:12 +8000</pubDate>
+	</item>
+	<item>
+		<title>寿衣</title>
+		<description>家乡古老的丧葬习俗</description>
+		<link>http://xie-yu.github.com/blog/life/dress-for-the-dead.html</link>
+		<pubDate>Sat, 22 Dec 2012 12:58:03 +80000</pubDate>
+	</item>
+	<item>
+		<title>小报栏</title>
+		<description>回忆六食广场的报刊栏</description>
+		<link>http://xie-yu.github.com/blog/life/little-paper-boards.html</link>
+		<pubDate>Sun, 28 Oct 2012 22:00:00 +80000</pubDate>
 	</item>
 	<item>
 		<title>一段Old Style C代码：不带类型声明的形参</title>
 		<description>本文展示了一段古怪的K&R式C代码，涉及浮点数的表示方法、小尾端的字节序相关内容。</description>
-		<link>http://xie-yu.github.com/blog/2012/old-style-c-concerning-floating-point-representation.html</link>
+		<link>http://xie-yu.github.com/blog/study/old-style-c-concerning-floating-point-representation.html</link>
 		<pubDate>Thu, 13 Sep 2012 12:09:40 +8000</pubDate>
 	</item>
 	<item>
 		<title>二分图最大匹配的贪心解法及证明</title>
 		<description>二分图最大匹配的经典算法是匈牙利算法，本文给出一种同样是多项式时间复杂度的贪心解法，并给出算法的证明。</description>
-		<link>http://xie-yu.github.com/blog/2012/greedy-method-for-assignment-problem.html</link>
+		<link>http://xie-yu.github.com/blog/study/greedy-method-for-assignment-problem.html</link>
 		<pubDate>Mon, 6 Aug 2012 22:00:00 +0800</pubDate>
 	</item>
 	<item>
-		<title>谷歌搜索的敏感词有哪些</title>
-		<description>分析谷歌网页代码，解析出谷歌搜索的敏感词</description>
-		<link>http://xie-yu.github.com/blog/2012/what-are-the-google-dirty-words.html</link>
-		<pubDate>Mon, 23 Jul 2012 01:00:00 +0800</pubDate>
-	</item>
-	<item>
-		<title>3D跑马灯jQuery插件</title>
-		<description>第一次手动做动画效果，旋转跑马灯</description>
-		<link>http://xie-yu.github.com/blog/2012/3d-marquee-for-images.html</link>
-		<pubDate>Thu, 31 May 2012 13:00:00 +0800</pubDate>
-	</item>
-	<item>
-		<title>简单的语法高亮widget</title>
-		<description>为方便展示博客的代码，制作了语法高亮的js插件</description>
-		<link>http://xie-yu.github.com/blog/2012/simple-syntax-highlight-widget.html</link>
-		<pubDate>Mon, 16 Apr 2012 04:00:00 +0800</pubDate>
+		<title>由小陶想起一位小王</title>
+		<description>回忆一个青年</description>
+		<link>http://xie-yu.github.com/blog/life/xiao-tao-and-xiao-tao.html</link>
+		<pubDate>Thu, 23 Jan 2011 04:00:00 +0800</pubDate>
 	</item>
 </channel>
 </rss>
