@@ -21,7 +21,8 @@ a:hover{font-weight:6em}
 .cat a:hover{font-weight: 6em; color: #7e6f07; text-decoration: none;}
 .cat p{magin-bottom: 0px; font-size: 14px;}
 #push{min-height:198px;}
-#footer{background: #dbd5ac; min-height: 198px; margin:auto auto 0 auto;}
+#footer{background: #7a744e; min-height: 198px; margin:auto auto 0 auto;}
+#footer a{border-bottom:1px dotted #ffffff;}
 #footer_content{width:1000px; margin:20px auto 0 150px;}
 #avartar{float:left;}
 #avartar img{height: 150px; }
