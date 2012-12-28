@@ -7,7 +7,7 @@ pre{font-family:"Courier"; padding-left:20px;}
 a{text-decoration: none; border-bottom: 1px dotted #7e6f07; color: #1a1602;}
 a:hover{font-weight:6em}
 #centrify{width:940px; height: auto !important; margin:20px auto -198px 200px; min-height: 100%}
-#logo{float:left; margin:0 10px 0 0; margin-left: -26px;}
+#logo{float:left; margin:0 10px 0 0; margin-left: -5px;}
 #logo a{border:none;}
 #intro{font-size: 14px; width: 430px; height: 150px; float:left; margin:5px 0 0 0px; border-left: solid 5px #7e6f07; padding: 17px 0 0 25px; color: #585757;}
 #intro .em_text{color: #7e6f07;}
