@@ -3,7 +3,7 @@ body{line-height:1.625em; font-size: 1em;
 font-family:"Marmelad", "WenQuanYi ZenHei", 文泉驿正黑, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", 微软雅黑, Helvetica, Arial, Sans-Serif}
 .clear{clear:both;}
 img{border:none;}
-pre{font-family:"Courier"}
+pre{font-family:"Courier"; padding-left:20px;}
 a{text-decoration: none; border-bottom: 1px dotted #7e6f07; color: #1a1602;}
 a:hover{font-weight:6em}
 #centrify{width:1000px; height: auto !important; margin:20px auto -198px 150px; min-height: 100%}
