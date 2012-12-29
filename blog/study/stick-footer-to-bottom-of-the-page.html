@@ -54,9 +54,10 @@
 &lt;/html&gt;
 </pre></p>
 			<p>也就是说，将页面的内容都放到wrapper块中，并在内容的最后添加一个空的<code class='prettyprint'>div</code>块push。接下来设置样式。</p>
-			<p>由于是页面内容不足而引发的问题，所以设置wrapper的<code class='prettyprint'>min-height</code>为100%，而且需要为footer留下空间，<!--
-			-->设置一个负的<code class='prettyprint'>margin-bottom</code>值，这个数值同样是footer最小的高度，所以同样设置footer的<code class='prettyprint'>min-height</code>。<!--
-			-->最后，还有最外围的<code class='prettyprint'>html</code>和<code class='prettyprint'>body</code>块，需要设置它们的<code class='prettyprint'>height</code>为100%.</p>
+			<p>由于是页面内容不足而引发的问题，所以设置wrapper的<code class='prettyprint'>min-height</code>为100%，%100的意思是充满wrapper外部容器的100%，<!--
+			-->也就是充满body部分，因此，还需设置最外围的<code class='prettyprint'>html</code>和<code class='prettyprint'>body</code>块，设置它们的<code class='prettyprint'>height</code>为100%。<!--
+			-->这样已经把footer挤到最底下，基本完成了目标，但当页面内容很少，我们希望footer此时就处在屏幕最下面，可惜这时候footer会被挤到页面底下看不到的地方，需要往下滚才会出现，因此，我们<!--
+			-->对wrapper设置一个负的<code class='prettyprint'>margin-bottom</code>值，footer就上来了。上面给出的文章同样设置footer的<code class='prettyprint'>min-height</code>，本文接下来将指出，footer的高度是没有关系的。</p>
 			<p>下面是样式：</p>
 <p><pre class='prettyprint linenums'>
 *{margin:0;}
@@ -65,8 +66,9 @@ html, body {height:100%;}
 #push{min-height:50px;}
 #footer{min-height:50px; background:#aaaaaa;}
 </pre></p>
-			<p>在上面提到的文章中，除了这里提到的标记和样式之外，还设置了一个用来填充空间的空的<code class='prettyprint'>div</code>块，这个东西很微妙，要内容不多不少才能发现它的作用：<!--
-			-->如果内容很少，比如上面那个示例，没有push是没有影响的，如果内容差不多要“翻页”的时候，没有push的话，footer会覆盖内容。</p>
+			<p>在上面提到的标记代码中，设置了一个用来填充空间的空的<code class='prettyprint'>div</code>块: push。 这个东西很微妙：<!--
+			-->因为wrapper的<code class='prettyprint'>margin-bottom</code>是负值，那么footer其实一直会覆盖着wrapper最底下的<code class='prettyprint'>margin-bottom</code>高度的内容，如果内容很少，比如上面那个示例，<!--
+			-->没有push不会有影响，当内容多到一页放不下的时候，footer就会覆盖内容。footer必然会覆盖wrapper最底下一点内容，所以我们放置一个空白的部分，即push块，恰好弥补了那负值的<code class='prettyprint'>margin-bottom</code>。所以真正有关系的是push的高度。讲到这里，标记的各个部分，以及几个高度的设置，应该讲清楚了。</p>
 			<p class='left_right'>
 				« <a href='markov-pos-tagging.html'>词性标注的联想</a>&nbsp;
 			</p><p class='clear'></p>
