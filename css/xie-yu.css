@@ -44,5 +44,5 @@ a:hover{font-weight:6em}
 img.float_img{float:left; margin: 6px 10px 6px 0;}
 .notes{font-style:italic; color:#888888;}
 code{border:1px solid; margin:0 5px; padding: 0 2px;}
-#disqus_thread{margin-top:60px; padding-top: 10px; border-top: 3px solid #dddddd;}
+#disqus_thread{margin-top:60px; padding-top: 10px; border-top: 2px solid #dddddd;}
 #disqus_thread a{border:none;}
