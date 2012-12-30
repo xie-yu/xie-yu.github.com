@@ -1,4 +1,8 @@
 ﻿html, body {margin:0; padding:0;height:100%;}
+::selection {
+ background:#322f1f;
+ color:#fff;
+}
 body{line-height:1.625em; font-size: 1em;
 font-family:"Marmelad", "WenQuanYi ZenHei", 文泉驿正黑, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", 微软雅黑, Helvetica, Arial, Sans-Serif}
 .clear{clear:both;}
