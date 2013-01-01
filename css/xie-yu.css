@@ -30,7 +30,7 @@ a:hover{font-weight:6em}
 #footer_content{width:940px; margin:20px auto 0 200px;}
 #avartar{float:left;}
 #avartar img{height: 150px; }
-#footer_note{float:left; margin:10px 0 10px 20px; border-left: solid 2px #7e6f07; min-height: 150px; padding-left: 20px; color: #1a1602; font-size:12px;}
+#footer_note{float:left; margin:10px 0 10px 20px; /*border-left: solid 2px #7e6f07;*/ min-height: 150px; padding-left: 20px; color: #1a1602; font-size:12px;}
 #link{margin-top:10px;}
 #blog{padding-top:15px; margin-bottom: 150px; width: 735px;}
 #blog h1{color:1a1602; font-size: 1.5em;}
