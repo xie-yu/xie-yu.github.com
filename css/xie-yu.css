@@ -18,8 +18,8 @@ a:hover{font-weight:6em}
 #intro p{margin: 0px}
 #intro a{color:#7e6f07;}
 #content{margin-top: 10px; border-top: solid 2px #7e6f07; padding-top:5px;}
-#cat_study{min-height: 100px; background: left top no-repeat url(../image/study-tag.gif); float: left; width: 440px; padding-top:25px;}
-#cat_life{min-height: 100px; background: left top no-repeat url(../image/life-tag.gif); float: left; width: 440px; margin-left: 10px;padding-top:25px;}
+#cat_study{min-height: 100px; background: left top no-repeat url(../image/study-tag.gif); float: left; width: 440px; padding-top:70px;}
+#cat_life{min-height: 100px; background: left top no-repeat url(../image/life-tag.gif); float: left; width: 440px; margin-left: 10px;padding-top:31px;}
 .cat{margin: 10px 0 0 40px; color: #242001;}
 .cat a{color: #242001;text-decoration: none; border-bottom: 1px dotted #7e6f07;}
 .cat a:hover{font-weight: 6em; color: #7e6f07; text-decoration: none;}
@@ -31,7 +31,7 @@ a:hover{font-weight:6em}
 #avartar{float:left;}
 #avartar img{height: 150px; }
 #footer_note{float:left; margin:10px 0 10px 20px; /*border-left: solid 2px #7e6f07;*/ min-height: 150px; padding-left: 20px; color: #1a1602; font-size:12px;}
-#link{margin-top:10px;}
+#link{margin-top:103px;}
 #blog{padding-top:15px; margin-bottom: 150px; width: 735px;}
 #blog h1{color:1a1602; font-size: 1.5em;}
 #blog p{margin-bottom: 30px;}
