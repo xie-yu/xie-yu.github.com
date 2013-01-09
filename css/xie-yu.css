@@ -37,7 +37,7 @@ a:hover{font-weight:6em}
 #blog p{margin-bottom: 30px;}
 #blog p.date {margin-bottom: 40px; color: #999999;}
 .blog_em_text{color: #898989; font-weight: bold; }
-.block_quote{border-left: 5px solid #7e6f07; margin-left: 40px; padding-left: 20px; font-size: 12px;}
+.block_quote{border-left: 1px solid #7e6f07; margin-left: 40px; padding-left: 20px; font-size: 12px;}
 .left_right{float:right; color: #999999;}
 .left_right a{color: #999999;}
 .blog_bold_italic_text{font-weight:bold; font-style:italic;}
