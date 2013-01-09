@@ -13,14 +13,14 @@ a:hover{font-weight:6em}
 #centrify{width:940px; height: auto !important; margin:20px auto -198px 200px; min-height: 100%}
 #logo{float:left; margin:0 10px 0 0; margin-left: -5px; height:186px; width:250px;}
 #logo a{border:none;}
-#intro{font-size: 14px; width: 430px; height: 150px; float:left; margin:5px 0 0 0px; border-left: solid 5px #7e6f07; padding: 0px 0 0 25px; color: #585757;}
+#intro{font-size: 14px; width: 430px; height: 150px; float:left; margin:5px 0 0 0px; border-left: solid 1px #7e6f07; padding: 0px 0 0 25px; color: #585757;}
 #intro .em_text{color: #7e6f07;}
 #intro p{margin: 0px}
 #intro a{color:#7e6f07;}
-#content{margin-top: 10px; border-top: solid 2px #7e6f07; padding-top:5px;}
-#cat_study{min-height: 100px; background: left top no-repeat url(../image/study-tag.gif); float: left; width: 440px; padding-top:70px;}
-#cat_life{min-height: 100px; background: left top no-repeat url(../image/life-tag.gif); float: left; width: 440px; margin-left: 10px;padding-top:31px;}
-.cat{margin: 10px 0 0 40px; color: #242001;}
+#content{margin-top: 0px; border-top: solid 1px #7e6f07; padding-top:5px;}
+#cat_study{min-height: 100px; /*background: left top no-repeat url(../image/study-tag.gif);*/ float: left; width: 440px; padding-top:63px;}
+#cat_life{min-height: 100px; /*background: left top no-repeat url(../image/life-tag.gif);*/ float: left; width: 440px; margin-left: 10px;padding-top:21px;}
+.cat{margin: 10px 0 0 0px; color: #242001;}
 .cat a{color: #242001;text-decoration: none; border-bottom: 1px dotted #7e6f07;}
 .cat a:hover{font-weight: 6em; color: #7e6f07; text-decoration: none;}
 .cat p{magin-bottom: 0px; font-size: 14px;}
